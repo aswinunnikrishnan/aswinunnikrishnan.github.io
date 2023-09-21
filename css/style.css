@@ -39,11 +39,6 @@ body {
     color: #fff;
 }
 
-@media (max-width: 991px) {
-    .custom-navbar {
-        background-color: rgb(139, 126, 126);
-}
-}
 /* Home Section */
 #home {
     background-image: url('../assets/images/home.jpg'); /* Add your background image URL */
@@ -141,3 +136,11 @@ h1, h2, p {
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
   }
+@media (max-width: 991px) {
+.custom-navbar {
+    background-color: rgb(139, 126, 126);
+}
+.welcome-text {
+    font-size: 80px;
+}
+} 
