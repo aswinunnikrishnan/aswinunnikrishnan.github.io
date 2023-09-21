@@ -19,7 +19,7 @@ body {
 /* Navbar styles */
 .custom-navbar {
     background-color: transparent; /* Make the navbar background transparent */
-    position: absolute; /* Fix the navbar at the top */
+    position: fixed; /* Fix the navbar at the top */
     top: 0;
     left: 0;
     right: 0;
@@ -35,7 +35,7 @@ body {
 
 /* Navbar link hover styles */
 .navbar-nav .nav-link:hover {
-    background-color: rgba(139, 126, 126,0.7); /* Change background color on hover */
+    background-color: rgba(88, 83, 83, 0.7); /* Change background color on hover */
     color: #fff;
 }
 

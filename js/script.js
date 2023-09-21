@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded",function() {
     // Back to Top Button
     var backToTopButton = document.getElementById("back-to-top");
+    var navbar = document.getElementById('navbar');
 
     window.addEventListener("scroll", function () {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         backToTopButton.style.display = "block";
+        navbar.style.visibility = "hidden";
         } else {
         backToTopButton.style.display = "none";
+        navbar.style.visibility = "visible";
         }
     });
 
