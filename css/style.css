@@ -142,5 +142,6 @@ h1, h2, p {
 }
 .welcome-text {
     font-size: 80px;
+    display: flex;
 }
 } 
