@@ -140,8 +140,16 @@ h1, h2, p {
 .custom-navbar {
     background-color: rgb(139, 126, 126);
 }
+.animation-container {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    text-align: center;
+}
+
 .welcome-text {
-    font-size: 80px;
-    padding-right: 20px;
+    font-size: 40px;
+    padding-right: 0;
+    border-left: none;
 }
 } 
